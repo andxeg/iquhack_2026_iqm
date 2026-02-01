@@ -297,6 +297,7 @@ def run_on_iqm_hardware(
     shots: int = 4000,
     optimization_level: int = 1,
     seed_transpiler: Optional[int] = 1,
+    cco = None
 ):
     """
     Execute circuit(s) on IQM (Resonance) using IQMProvider(server_url, quantum_computer=..., token=...).
@@ -334,7 +335,7 @@ def run_on_iqm_hardware(
     )
 
     # Important: specify shots (your snippet omitted it; default may vary)
-    job = backend.run(tqc, shots=shots)
+    job = backend.run(tqc, shots=shots, circuit_compilation_options = cco)
     result = job.result()
     return backend, result
 
