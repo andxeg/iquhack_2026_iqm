@@ -21,5 +21,3 @@ See all details in presentation [Team_17_iQuHACK_2026.pdf](./Team_17_iQuHACK_202
 
 ## Our Results
 ![iQuHACK logo](./images/All_GHZ_Results.png)
-
-## Repository layout
