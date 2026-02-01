@@ -297,7 +297,8 @@ def run_on_iqm_hardware(
     shots: int = 4000,
     optimization_level: int = 1,
     seed_transpiler: Optional[int] = 1,
-    cco = None
+    cco = None,
+    initial_layout=None
 ):
     """
     Execute circuit(s) on IQM (Resonance) using IQMProvider(server_url, quantum_computer=..., token=...).
@@ -326,12 +327,13 @@ def run_on_iqm_hardware(
         circuits_list = [circuits]
     else:
         circuits_list = list(circuits)
-
+    print(f"From run_on_iqm_hardware: initial layout is {initial_layout}")
     tqc = transpile(
         circuits_list,
         backend=backend,
         optimization_level=optimization_level,
         seed_transpiler=seed_transpiler,
+        initial_layout=initial_layout
     )
 
     # Important: specify shots (your snippet omitted it; default may vary)
