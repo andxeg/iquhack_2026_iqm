@@ -19,10 +19,7 @@ See all details in presentation [Team_17_iQuHACK_2026.pdf](./Team_17_iQuHACK_202
 3. When the repository is cloned, on qBraid open the Jupyter Notebook [start_here.ipynb](./start_here.ipynb) and follow the instructions inside.
 4. You're all set!
 
-## Our Challenge
-
-
-## Our Solution
-
+## Our Results
+![iQuHACK logo](./images/All_GHZ_Results.png)
 
 ## Repository layout
