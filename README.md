@@ -8,7 +8,7 @@
 
 **Members:** Andrew Maciejunes | Jesse Webb | Andrew Norway | Vlad Gaylun | Andrei Chupakhin
 
-See all details in presentation [Team_17_iQuHACK_2026.pdf](./Team_17_iQuHACK_2026.pdf)
+See all details in presentation [Team_17_iQuHACK_2026_presentation.pdf](./Team_17_iQuHACK_2026_presentation.pdf)
 
 ## Key ideas
 
